@@ -1,0 +1,44 @@
+🚀 Starting Weather Model Test
+==================================================
+✅ Model loaded successfully from advanced_weather_model.keras
+Model input shape: (None, 168, 19)
+Model output shape: (None, 24, 4)
+🧪 Testing model with data from hourly_weather_data_in_new_york_city-1754407915243.csv
+============================================================
+✅ Loaded 8760 records for testing
+Preprocessing test data...
+
+📊 Test Case 1: Using data from index 8542
+🔮 Predictions (24-hour forecast):
+  Temperature : Min=14.18, Max=15.40, Avg=14.87
+  Humidity    : Min=61.32, Max=63.39, Avg=62.45
+  Precipitation: Min=0.01, Max=0.40, Avg=0.18
+  Wind_speed  : Min=2.97, Max=3.35, Avg=3.17
+
+📊 Test Case 2: Using data from index 8492
+🔮 Predictions (24-hour forecast):
+  Temperature : Min=13.78, Max=15.07, Avg=14.52
+  Humidity    : Min=61.35, Max=63.63, Avg=62.59
+  Precipitation: Min=0.00, Max=0.41, Avg=0.18
+  Wind_speed  : Min=2.95, Max=3.35, Avg=3.16
+
+📊 Test Case 3: Using data from index 8592
+🔮 Predictions (24-hour forecast):
+  Temperature : Min=14.33, Max=15.54, Avg=15.01
+  Humidity    : Min=61.18, Max=63.20, Avg=62.30
+  Precipitation: Min=0.01, Max=0.40, Avg=0.18
+  Wind_speed  : Min=2.98, Max=3.35, Avg=3.17
+
+📈 Creating prediction visualizations...
+
+
+✅ Model Testing Completed Successfully!
+🔍 Tested 3 different time periods
+📊 Check the plots above for detailed predictions
+
+🎯 Quick Prediction Summary:
+Next 24-hour forecast highlights:
+  📈 Temperature    : 15.0 (range: 14.3 - 15.5)
+  📈 Humidity       : 62.3 (range: 61.2 - 63.2)
+  📈 Precipitation  : 0.2 (range: 0.0 - 0.4)
+  📈 Wind Speed     : 3.2 (range: 3.0 - 3.3)

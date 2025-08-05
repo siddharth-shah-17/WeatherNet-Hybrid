@@ -1,0 +1,100 @@
+🚀 Advanced Weather Model Analysis
+============================================================
+✅ Model loaded: advanced_weather_model.keras
+🔍 Comprehensive Model Accuracy Evaluation
+============================================================
+Testing on 30 different time periods...
+
+📊 Accuracy Metrics by Weather Variable:
+--------------------------------------------------
+TEMPERATURE     | MAE: 0.072 | RMSE: 0.090 | R²: -0.203 | MAPE: 16.0%
+HUMIDITY        | MAE: 0.125 | RMSE: 0.146 | R²: -0.172 | MAPE: 18.9%
+PRECIPITATION   | MAE: 0.004 | RMSE: 0.006 | R²: -0.571 | MAPE: 34812471.1%
+WIND_SPEED      | MAE: 0.079 | RMSE: 0.114 | R²: -0.027 | MAPE: 18963792.2%
+
+📈 Creating detailed accuracy visualizations...
+
+
+🌸🌞🍂❄️ Seasonal Performance Analysis
+==================================================
+
+Winter Analysis (2160 records):
+  temperature : MAE=0.084, RMSE=0.108, R²=-0.142
+  humidity    : MAE=0.128, RMSE=0.153, R²=-0.143
+  precipitation: MAE=0.005, RMSE=0.005, R²=0.000
+  wind_speed  : MAE=0.099, RMSE=0.140, R²=-0.072
+
+Spring Analysis (2208 records):
+  temperature : MAE=0.119, RMSE=0.147, R²=-0.011
+  humidity    : MAE=0.161, RMSE=0.204, R²=-0.504
+  precipitation: MAE=0.014, RMSE=0.053, R²=-0.007
+  wind_speed  : MAE=0.071, RMSE=0.094, R²=0.001
+
+Summer Analysis (2208 records):
+  temperature : MAE=0.109, RMSE=0.131, R²=-0.042
+  humidity    : MAE=0.160, RMSE=0.197, R²=-0.003
+  precipitation: MAE=0.008, RMSE=0.032, R²=-0.024
+  wind_speed  : MAE=0.102, RMSE=0.144, R²=-0.087
+
+Fall Analysis (2184 records):
+  temperature : MAE=0.105, RMSE=0.133, R²=-0.138
+  humidity    : MAE=0.153, RMSE=0.192, R²=-0.011
+  precipitation: MAE=0.021, RMSE=0.066, R²=-0.021
+  wind_speed  : MAE=0.099, RMSE=0.135, R²=-0.180
+
+🎯 Prediction Confidence Analysis (1-24 hours ahead)
+============================================================
+
+
+Confidence Summary:
+  temperature    : 1h MAE=0.066, 24h MAE=0.060 (-9.1% change)
+  humidity       : 1h MAE=0.132, 24h MAE=0.132 (-0.1% change)
+  precipitation  : 1h MAE=0.006, 24h MAE=0.000 (-93.9% change)
+  wind_speed     : 1h MAE=0.097, 24h MAE=0.069 (-28.6% change)
+
+🎉 Comprehensive Analysis Complete!
+
+📋 Model Performance Summary:
+----------------------------------------
+Temperature    : Needs Improvement (R²=-0.203, MAE=0.072)
+Humidity       : Needs Improvement (R²=-0.172, MAE=0.125)
+Precipitation  : Needs Improvement (R²=-0.571, MAE=0.004)
+Wind Speed     : Needs Improvement (R²=-0.027, MAE=0.079)
+
+Log with other function file 
+
+🔧 Fixed Weather Model Analysis
+============================================================
+✅ Model loaded: advanced_weather_model.keras
+
+📊 Data Insights:
+----------------------------------------
+Temperature    : Mean=20.02, Std=11.63, Range=[-7.84, 47.57]
+Humidity       : Mean=75.71, Std=13.22, Range=[25.50, 100.00]
+Precipitation  : Mean=0.08, Std=0.58, Range=[0.00, 17.73]
+Wind Speed     : Mean=5.17, Std=5.14, Range=[0.00, 46.62]
+🔍 Fixed Model Accuracy Evaluation
+============================================================
+🔧 Creating consistent scalers from full dataset...
+✅ Created scalers for 19 features and 4 targets
+Using last 1752 records for testing...
+Testing on 30 sequences from test data...
+
+📊 Fixed Accuracy Metrics:
+--------------------------------------------------
+TEMPERATURE     | MAE: 12.728 | RMSE: 14.066 | R²: -15517.773 | MAPE: 74517667.3%
+HUMIDITY        | MAE: 77.742 | RMSE: 77.963 | R²: -296438.323 | MAPE: 10624.0%
+PRECIPITATION   | MAE: 0.104 | RMSE: 0.116 | R²: -9.897 | MAPE: 988035647.5%
+WIND_SPEED      | MAE: 4.852 | RMSE: 4.857 | R²: -1947.566 | MAPE: 5506596807.9%
+
+📈 Creating diagnostic visualizations...
+
+
+🎉 Fixed Analysis Complete!
+
+📋 Corrected Model Performance Summary:
+---------------------------------------------
+Temperature    : Needs Improvement (R²=-15517.773, MAE=12.728)
+Humidity       : Needs Improvement (R²=-296438.323, MAE=77.742)
+Precipitation  : Needs Improvement (R²=-9.897, MAE=0.104)
+Wind Speed     : Needs Improvement (R²=-1947.566, MAE=4.852)
