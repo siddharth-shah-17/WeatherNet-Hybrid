@@ -12,7 +12,7 @@ from sklearn.preprocessing import MinMaxScaler
 warnings.filterwarnings('ignore')
 
 class AdvancedWeatherTester:
-    def __init__(self, model_path='advanced_weather_model.keras'):
+    def __init__(self, model_path='./models/advanced_weather_model.keras'):
         self.model_path = model_path
         self.model = None
         self.scalers = {}
